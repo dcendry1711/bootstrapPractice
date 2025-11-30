@@ -34,10 +34,35 @@
        </nav>
     </header>
 
-    <main>
-        
+    <main style="margin-top: 4em; padding: 1em;">
+
         <section> <!--section dedicated for modals-->
             
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalContainer">Click for modal</button>
+
+            <div class="modal fade" id="modalContainer">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header flex justify-between">
+                            <h5 class="modal-title">Modal title</h5>
+                            <button type="button" class="close ms-auto" data-bs-dismiss="modal" style="background: none; border:none">
+                                <span>&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body">
+                            <p>lorem ipsum dolur</p>
+                        </div>
+
+                        <div class="modal-footer">
+
+                            <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
 
     </main>
